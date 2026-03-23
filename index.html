@@ -375,6 +375,21 @@
       background: rgba(123,28,46,.35);
       border-color: rgba(123,28,46,.6);
     }
+    .exp-links {
+      display: flex; gap: 16px; margin-top: 16px;
+    }
+    .exp-links a {
+      font-family: 'DM Mono', monospace;
+      font-size: .78rem; letter-spacing: .08em;
+      color: var(--accent); text-decoration: none;
+      border-bottom: 1px solid rgba(123,28,46,.4);
+      padding-bottom: 2px;
+      transition: color .2s, border-color .2s;
+    }
+    .exp-links a:hover {
+      color: var(--beige);
+      border-color: var(--beige);
+    }
 
     /* ─── SKILLS ─── */
     #skills { background: var(--bg-card); }
@@ -779,6 +794,34 @@
           <span class="tag">WebSocket</span>
           <span class="tag">OpenAI API</span>
           <span class="tag">Docker</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="exp-item reveal reveal-delay-2">
+      <div class="exp-meta">
+        <div class="exp-year">2025</div>
+        <div class="exp-company">AdoptAPet</div>
+        <div class="exp-location">Projet personnel</div>
+      </div>
+      <div class="exp-content">
+        <div class="exp-role">Plateforme d'adoption<br/>d'animaux</div>
+        <ul class="exp-bullets">
+          <li>Application web d'adoption d'animaux de compagnie avec un catalogue de 19 animaux classés par espèce (chiens, chats, oiseaux, poissons, lapins), recherche et filtres.</li>
+          <li>Section communautaire permettant à n'importe qui de publier un animal à l'adoption avec photo, description et traits de personnalité.</li>
+          <li>Processus de demande d'adoption intégré : formulaire pré-rempli avec les informations de l'animal et suivi de l'état des demandes depuis une page dédiée.</li>
+        </ul>
+        <div class="exp-stack">
+          <span class="tag">React</span>
+          <span class="tag">Vite</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">React Router</span>
+          <span class="tag">Supabase</span>
+          <span class="tag">Vercel</span>
+        </div>
+        <div class="exp-links">
+          <a href="https://adopt-a-pet-puce.vercel.app/" target="_blank">Voir le site ↗</a>
+          <a href="https://github.com/PrayingGoat/ADOPT-A-PET" target="_blank">Code source ↗</a>
         </div>
       </div>
     </div>
